@@ -1,0 +1,92 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #F4CE14;
+}
+
+nav {
+    background-color: #495E57;
+    padding: .25rem;
+    border-radius: 2rem;
+    margin: 2rem 0;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+.offer{
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    margin: 2rem 0;
+    background-image: url('pasta.png');
+    background-position: center;
+}
+
+footer{
+    display: flex;
+}
+
+footer > div{
+    flex: 1;
+}
+
+footer > .copy{
+    text-align: end;
+    margin-right: 2rem;
+}
+
+footer img{
+    display: block;
+    width: 40px;
+    margin-left: 2rem;
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #F4CE14;
+}
+
+.card  img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
